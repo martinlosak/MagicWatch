@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Magic Watch</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+
+    <string name="notify_text">Pizza will arrive in 10 minutes. Thanks for your order!</string>
+    <string name="title">Request done</string>
+    <string name="send_notify">Send Notification</string>
 </resources>
