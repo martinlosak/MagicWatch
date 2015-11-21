@@ -28,7 +28,7 @@
         </activity>
 
         <receiver
-            android:name=".MyPostNotificationReceiver"
+            android:name=".PostNotificationReceiver"
             android:exported="true" >
             <intent-filter>
                 <action android:name="com.losak.magicwatch.SHOW_NOTIFICATION" />
