@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Magic Watch</string>
+    <string name="app_name">Watch Agent</string>
 
     <string name="notify_text">Pizza will arrive in 10 minutes. Thanks for your order!</string>
     <string name="title">Request done</string>

@@ -29,24 +29,24 @@ public class MainActivity extends Activity {
         );
 
         //TEST
-//        Button button = (Button) findViewById(R.id.button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //send spokenText to new Intent
-//                new Handler().postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        Intent i = new Intent();
-//                        i.setAction("com.losak.magicwatch.SHOW_NOTIFICATION");
-//                        i.putExtra(PostNotificationReceiver.CONTENT_KEY, getString(R.string.title));
-//                        i.putExtra(PostNotificationReceiver.RECOGNIZED_TEXT, "Your pizza will be at your place in 10 minutes. Thanks for your order");
-//                        sendBroadcast(i);
-//                    }
-//                }, 2000);
-//                finish();
-//            }
-//        });
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //send spokenText to new Intent
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent i = new Intent();
+                        i.setAction("com.losak.magicwatch.SHOW_NOTIFICATION");
+                        i.putExtra(PostNotificationReceiver.CONTENT_KEY, getString(R.string.title));
+                        i.putExtra(PostNotificationReceiver.RECOGNIZED_TEXT, "Your pizza will be at your place in 10 minutes. Thanks for your order");
+                        sendBroadcast(i);
+                    }
+                }, 2000);
+                finish();
+            }
+        });
         //TEST
 
     }
